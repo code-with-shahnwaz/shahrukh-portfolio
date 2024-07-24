@@ -1,0 +1,358 @@
+@media (min-width:0px){
+    .container {
+        width: 100% !important;
+        margin: auto;
+        padding: 20px 0px;
+    }
+    .main-menu .main-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: fixed;
+        left: -100%;
+        top: 0%;
+        width: 300px;
+        background-color: #fff;
+        padding: 15px 20px;
+        height: 100%;
+        font-size: 14px;
+        /* transition: all 0.1s ease-in-out; */
+    }
+    /* ................skills......... */
+    .skill-box {
+        width: 100%;
+        padding-inline: 12px;
+    }
+    .sakir{
+        min-height: 88px;
+    }
+}
+@media (min-width:320px) {
+    .container {
+        width: 100% !important;
+        margin: auto;
+        padding-inline:12px ;
+    }
+
+    /* ..................header-section........... */
+    .hambarrgar i {
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .menu-text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-text>span {
+        font-size: 25px;
+        font-weight: 500;
+        margin-block: 15px;
+        color: #000;
+    }
+
+    .menu-text i {
+        cursor: pointer;
+    }
+
+    .main-menu .main-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: fixed;
+        left: -100%;
+        top: 0%;
+        width: 300px;
+        background-color: #fff;
+        padding: 15px 20px;
+        height: 100%;
+        font-size: 14px;
+        /* transition: all 0.1s ease-in-out; */
+    }
+
+    .main-ul>li {
+        width: 100%;
+        line-height: 26px;
+        padding: 4px 16px;
+        color: #777;
+        border: 1px solid #eae8ef;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        margin-left: 0px;
+    }
+
+    .show-slide {
+        left: 0% !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .slide.slide1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .slide-col4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-col8 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-image {
+        width: 80px;
+        height: 81px;
+    }
+
+    .slide-contact h4 {
+        text-align: center;
+    }
+
+    .slide-contact span {
+        text-align: center;
+    }
+
+    /* ................Close header-section........... */
+    /* ................Start  Banner-section.......... */
+    .banner-section .row {
+        flex-wrap: wrap;
+    }
+
+    .banner-section .row .column {
+        width: 100%;
+    }
+
+    .hero-img>img {
+        width: 210px;
+    }
+
+    .hero-text {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+}
+
+/* ..................Start About-section....... */
+.about-box>.about-col {
+    width: 100%;
+}
+.proj-cont-box1 {
+    width: 100%;
+    padding-inline: 12px;
+    margin-bottom: 24px;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px !important;
+        margin: auto;
+    }
+
+    .hero-img>img {
+        width: calc(100% - 250px);
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px !important;
+        margin: auto;
+    }
+
+    /* .........banner-section.......... */
+    .hero-img>img {
+        width: calc(100% - 400px);
+    }
+
+    .slide.slide1 {
+        display: flex;
+    }
+
+    .slide-col4 {
+        width: 33.33%;
+        padding-inline: 12px;
+    }
+
+    .slide-col8 {
+        width: 66.66%;
+        padding-inline: 12px;
+    }
+
+    .slide-contact {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .slide-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slide-image img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .slide-contact h4 {
+        text-align: start;
+    }
+
+    .slide-contact span {
+        text-align: start;
+    }
+    /* ...........project...... */
+    .proj-cont-box1 {
+        width: 50%;
+        padding-inline: 12px;
+        margin-bottom: 24px;
+    }
+    /* ...........Skills..... */
+    .skill-box {
+        width:50%;
+        padding-inline: 12px;
+    }
+    .sakir{
+        min-height: 245px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px !important;
+        margin: auto;
+    }
+    .hero-text {
+        margin-top: 10px;
+        text-align: start;
+    }
+
+    .hambarrgar {
+        display: none;
+    }
+
+    .menu-text {
+        display: none;
+    }
+
+    .main-menu {
+        margin-right: 15px;
+    }
+
+    .main-menu .main-ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: static;
+        width: 100%;
+        background-color: transparent;
+        padding: 0px;
+        /* margin-right: 15px; */
+    }
+
+    .main-ul>li {
+        margin-left: 30px;
+        line-height: 26px;
+        padding: 0px;
+        border: none;
+        border-radius: none;
+        margin: 0px;
+    }
+
+    .main-ul>li {
+        margin-left: 30px;
+        line-height: 26px;
+
+    }
+
+    .main-ul>li>a {
+        font-size: 15px;
+        font-family: Montserrat;
+        font-weight: 500;
+        line-height: 40px;
+        color: #1b1c20;
+        letter-spacing: 0.48px;
+
+    }
+
+    /* ...................Banner Section......... */
+    .banner-col {
+        width: 50% !important;
+    }
+
+    .hero-img>img {
+        width: calc(100% - 272px);
+        transform: translate3d(-4px, -15px, 0px);
+        margin-inline: 130px;
+        margin-bottom: 50px;
+        margin-right: 130px;
+    }
+
+    /* ..................About us............. */
+    .about-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-box>.about-col {
+        width: 33.33%;
+        padding-inline: 12px;
+        margin-bottom: 30px;
+    }
+    /* ............project...... */
+    .proj-cont-box1 {
+        width: 33.33%;
+        padding-inline: 12px;
+        margin-bottom: 24px;
+    }
+    /* ..........Skills........ */
+    .skill-box {
+        width:33.33%;
+        padding-inline: 12px;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px !important;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    /* ..........Skills......... */
+    .skill-box {
+        width:25%;
+        padding-inline: 12px;
+    }
+    
+}
+@media (max-width:420px) {
+    .hero-img:before {
+        width: calc(100% - 10px);
+        height: 400px;
+        top: 0;
+    }
+    
+    .hero-img:after {
+        width: calc(100% - 20px);
+        height: 405px;
+        bottom: 0;
+    }
+    .hero-img>img {
+        width: 210px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
