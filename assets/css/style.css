@@ -22,7 +22,9 @@
     --h4-weight: 600;
     --h4-color: #111a24;
 }
-
+h2{
+    line-height: 1.2em;
+}
 .container {
     max-width: 1140px;
     margin: auto;
@@ -423,6 +425,8 @@ h2>span {
     border: 2px solid #fff;
     z-index: 0;
     animation: mover 3s infinite alternate;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }
 
 span.border-line {
@@ -438,7 +442,8 @@ span.border-line {
     position: absolute;
     background-color: #111a24;
     z-index: -1;
-    left: 50.6%;
+    left: 50%;
+    transform: translate(-50%, -0%);
     border-radius: 50px;
 }
 
@@ -798,7 +803,7 @@ h2 {
 
 .achievement-section .container .row>.column {
     position: relative;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -862,8 +867,7 @@ h2 {
     width: 16px;
     border: 2px solid #fff;
     position: absolute;
-    right: 0;
-    left: 0;
+    right: -10px;
     top: 0;
     margin: auto;
     background-color: #111a24;
@@ -953,8 +957,7 @@ h3 span {
     border: 2px solid #fff;
     margin: auto;
     position: absolute;
-    right: 0;
-    left: 0;
+    left: -10px;
     bottom: 0;
     background-color: #111a24;
     z-index: 0;
@@ -995,11 +998,14 @@ h3 span {
 
 .hide-exper {
     visibility: hidden !important;
+    display: none;
     transition: all 0.1ms;
+    
 }
 
 .hideediuc {
     visibility: hidden;
+    display: none;
     transition: all 0.1ms;
 }
 
